@@ -32,9 +32,11 @@ A Single File Component encapsulates all component logic in one file with three 
 -->
 
 <script setup>
-  // Import the Counter component to use it in this template
-  // The Counter component demonstrates conditional rendering patterns
-  import Counter from './components/demos/Counter.vue';
+    // Import the Counter component to use it in this template
+    // The Counter component demonstrates conditional rendering patterns
+    import Counter from './components/demos/Counter.vue';
+    // importing toggle componenet
+    import Toggle from './components/demos/Toggle.vue';
 </script>
 
 <template>
@@ -43,4 +45,7 @@ A Single File Component encapsulates all component logic in one file with three 
      This will display the Counter component's template content here
   -->
   <Counter />
+
+  <!-- Importing the Toggle Component -->
+   <Toggle/>
 </template>
