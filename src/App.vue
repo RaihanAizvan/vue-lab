@@ -32,11 +32,16 @@ A Single File Component encapsulates all component logic in one file with three 
 -->
 
 <script setup>
+
     // Import the Counter component to use it in this template
     // The Counter component demonstrates conditional rendering patterns
     import Counter from './components/demos/Counter.vue';
+
     // importing toggle componenet
     import Toggle from './components/demos/Toggle.vue';
+
+    // importing computed property practice
+    import Computed_Property from './components/demos/Computed_Property.vue';
 </script>
 
 <template>
@@ -48,4 +53,7 @@ A Single File Component encapsulates all component logic in one file with three 
 
   <!-- Importing the Toggle Component -->
    <Toggle/>
+
+   <!-- as expected we are rendering computed property here -->
+   <Computed_Property/>
 </template>
